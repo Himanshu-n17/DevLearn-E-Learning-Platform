@@ -15,7 +15,6 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  font-size: larger;
 }
 
 button {
@@ -29,4 +28,10 @@ button {
 
 button:hover {
   background-color: #1565c0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 10px 0;
 }

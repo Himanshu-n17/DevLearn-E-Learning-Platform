@@ -1,15 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./CourseCard.css";
 
-const CourseCard = ({ title, description, progress }) => {
+const CourseCard = ({ course }) => {
   return (
     <div className="course-card">
-      <h3>{title}</h3>
-      <p>{description}</p>
-      <div className="progress-container">
-        <div className="progress-bar" style={{ width: `${progress}%` }}></div>
-      </div>
-      <button>Continue</button>
+      <h3>{course.title}</h3>
+      <p>{course.description}</p>
+      <Link to={`/courses/${course.id}`}>
+        <button>View Course</button>
+      </Link>
     </div>
   );
 };

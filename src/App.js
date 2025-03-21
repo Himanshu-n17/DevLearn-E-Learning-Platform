@@ -1,17 +1,23 @@
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import Courses from "./Pages/Courses";
+import CourseDetails from "./Pages/CourseDetails";
+import Dashboard from "./Pages/Dashboard";
+import Profile from "./Pages/Profile";
 
-const App = () => {
+function App() {
   return (
-    <>
-      <Navbar />
-      <div className="container">
-        <h1>Welcome to E-Learnify</h1>
-        <p>Your platform for learning anything, anytime!</p>
-      </div>
-      {/* <Footer /> */}
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/courses/:id" element={<CourseDetails />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </Router>
   );
-};
+}
 
 export default App;
