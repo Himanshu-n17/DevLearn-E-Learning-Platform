@@ -9,7 +9,7 @@ const Home = () => {
       <Navbar />
       <div className="container">
         <h1>Welcome to E-Learnify</h1>
-        <p>Your platform for learning anything, anytime!</p>
+        <p>Discover courses and enhance your skills anywhere, anytime.</p>
         <Link to="/courses">
           <button>Explore Courses</button>
         </Link>

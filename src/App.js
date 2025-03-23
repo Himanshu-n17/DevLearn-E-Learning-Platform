@@ -6,7 +6,7 @@ import CourseDetails from "./Pages/CourseDetails";
 import Dashboard from "./Pages/Dashboard";
 import Profile from "./Pages/Profile";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Routes>
@@ -18,6 +18,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
