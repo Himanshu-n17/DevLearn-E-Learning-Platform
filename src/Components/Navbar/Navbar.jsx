@@ -5,21 +5,15 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar__logo">E-Learnify</div>
-      <ul className="navbar__links">
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/courses">Courses</Link>
-        </li>
-        <li>
-          <Link to="/dashboard">Dashboard</Link>
-        </li>
-        <li>
-          <Link to="/profile">Profile</Link>
-        </li>
-      </ul>
+      <div className="navbar-brand">
+        <Link to="/">EduLearn</Link>
+      </div>
+      <div className="navbar-links">
+        <Link to="/">Home</Link>
+        <Link to="/courses">Courses</Link>
+        <Link to="/dashboard">Dashboard</Link>
+        <Link to="/profile">Profile</Link>
+      </div>
     </nav>
   );
 };
