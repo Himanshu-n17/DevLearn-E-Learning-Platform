@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="featured-courses">
+      <section className="featured-">
         <h2>Featured Courses</h2>
         <div className="courses-grid">
           {featuredCourses.map((course) => (

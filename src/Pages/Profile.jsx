@@ -4,7 +4,7 @@ const Profile = () => {
   const [profile, setProfile] = useState({
     name: "Himanshu Sekhar Nayak",
     email: "nayak.himanshu2004@gmail.com",
-    bio: "Passionate learner | Web Developer",
+    bio: "Passionate learner | Web ",
     notifications: true,
   });
 
