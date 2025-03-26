@@ -6,8 +6,8 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h3>EduLearn</h3>
-          <p>Empowering minds through online education</p>
+          <h3>DevLearn</h3>
+          <p>Empowering minds through online DevLation</p>
         </div>
         <div className="footer-section">
           <h4>Quick Links</h4>
@@ -25,12 +25,12 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h4>Contact Us</h4>
-          <p>Email: info@edulearn.com</p>
+          <p>Email: info@DevLearn.com</p>
           <p>Phone: (555) 123-4567</p>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 EduLearn. All rights reserved.</p>
+        <p>&copy; 2024 DevLearn. All rights reserved.</p>
       </div>
     </footer>
   );
