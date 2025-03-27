@@ -29,6 +29,7 @@ A modern online learning platform built with React, offering a diverse range of 
 
 - React 18
 - Vite
+- CSS
 - React Router DOM
 - React Icons
 - React Player (for video playback)
